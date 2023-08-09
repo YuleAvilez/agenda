@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9A9A9A"
+    android:backgroundTint="#DAD8DA"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/menut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFDBDB"
+        android:backgroundTint="#7C53C6"
+        android:text="Agenda"
+        app:menu="@menu/menu_principal"
+        app:subtitle="@string/app_name" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A327E4"
+        android:ems="10"
+        android:hint="Nombre:"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A327E4"
+        android:ems="10"
+        android:hint="Teléfono:"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A327E4"
+        android:backgroundTintMode="src_atop"
+        android:ems="10"
+        android:hint="Correo Electronico:"
+        android:inputType="text"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#6E48B3"
+        android:text="GUARDAR REGISTRO"
+        android:textSize="20sp"/>
+</LinearLayout>

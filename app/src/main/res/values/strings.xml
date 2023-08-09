@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">agenda</string>
+    <string name="title_activity_nuevo">NuevoActivity</string>
+    <string name="menu_nuevo">Nuevo Registro</string>
 </resources>
